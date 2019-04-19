@@ -1,11 +1,13 @@
 import React from "react"
-
 import Layout from "../components/Layout"
 
-export default () => {
+const Docs = () => {
   return (
     <Layout>
-      <p>Hello Again</p>
+      <h1>Docs Page</h1>
+      <p>This is the documentation page</p>
     </Layout>
   )
 }
+
+export default Docs

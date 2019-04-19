@@ -1,11 +1,13 @@
 import React from "react"
-
 import Layout from "../components/Layout"
 
-export default () => {
+const Blog = () => {
   return (
     <Layout>
-      <p>Hello Again</p>
+      <h1>Blog Page</h1>
+      <p>This is the blog page</p>
     </Layout>
   )
 }
+
+export default Blog
