@@ -6,6 +6,7 @@ module.exports = {
     github: "https://www.github.com/phavor",
   },
   plugins: [
+    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-source-contentful",
       options: {
