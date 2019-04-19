@@ -7,14 +7,15 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sass",
+    "gatsby-plugin-sharp",
     {
-      resolve: "gatsby-source-contentful",
+      resolve: "gatsby-plugin-buildtime-timezone",
       options: {
-        spaceId: process.env.CONTENTFUL_SPACE_ID,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+        tz: "GMT",
+        format: "ddd, DD MMM YYYY",
       },
     },
-    "gatsby-plugin-sass",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -22,7 +23,6 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    "gatsby-plugin-sharp",
     {
       resolve: "gatsby-transformer-remark",
       options: {
