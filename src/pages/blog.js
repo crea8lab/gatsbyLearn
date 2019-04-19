@@ -8,7 +8,7 @@ import blogStyles from "../styles/components/blog.module.scss"
 const Blog = () => {
   const data = useStaticQuery(graphql`
     query {
-      allMarkdownRemark {
+      allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
         edges {
           node {
             frontmatter {
