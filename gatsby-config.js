@@ -2,6 +2,8 @@ module.exports = {
   siteMetadata: {
     title: "Gatsby Learn",
     author: "George Favour",
+    twitter: "https://www.twitter.com/tz_fayvor",
+    github: "https://www.github.com/phavor",
   },
   plugins: [
     "gatsby-plugin-sass",
