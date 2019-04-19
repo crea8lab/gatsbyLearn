@@ -5,18 +5,6 @@ import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 
 import Head from "../components/head"
 
-// export const query = graphql`
-//   query($slug: String) {
-//     markdownRemark(fields: { slug: { eq: $slug } }) {
-//       frontmatter {
-//         title
-//         date
-//       }
-//       html
-//     }
-//   }
-// `
-
 export const queryContentful = graphql`
   query($slug: String!) {
     contentfulBlogPost(slug: { eq: $slug }) {
@@ -50,13 +38,6 @@ const Blog = props => {
         props.data.contentfulBlogPost.body.json,
         options
       )}
-
-      {/* <h1>{props.data.markdownRemark.frontmatter.title}</h1>
-      <p>{props.data.markdownRemark.frontmatter.date}</p>
-
-      <div
-        dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}
-      /> */}
     </Layout>
   )
 }
