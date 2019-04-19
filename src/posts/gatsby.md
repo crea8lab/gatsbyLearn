@@ -3,6 +3,8 @@ title: "Introduction to Gatsby"
 date: "2019-04-19"
 ---
 
+![gatsby background image](./assets/gatsby-bng.jpg)
+
 ## Learn Gatsby - the easy way
 
 Gatsby is a static site generator, it is fast and extendible with a host of plugins. **Gatsby** can be used to build _websites_ or _apps_. It could also be used to build _PWA_'s.

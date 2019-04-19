@@ -3,6 +3,8 @@ title: "Introduction to React Hooks"
 date: "2019-04-19"
 ---
 
+![react background image](./assets/react-bng.jpg)
+
 ## Learn React Hooks - the easy way
 
 React hooks are the trend blazing hot in React's ecosystem.
