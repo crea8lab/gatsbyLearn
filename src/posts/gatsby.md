@@ -1,6 +1,9 @@
 ---
 title: "Introduction to Gatsby"
 date: "2019-04-19"
+author: "Favour George"
+twitter: "https://www.twitter.com/tz_fayvor"
+github: "https://www.github.com/phavor"
 ---
 
 ![gatsby background image](./assets/gatsby-bng.jpg)
