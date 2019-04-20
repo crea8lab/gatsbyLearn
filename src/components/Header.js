@@ -7,7 +7,7 @@ import headerStyles from "../styles/components/header.module.scss"
 const Header = () => {
   return (
     <header className={headerStyles.header}>
-      <h1 className="logo">
+      <h1>
         <Link to="/" className={headerStyles.title}>
           Gatsby<span className={headerStyles.title__span}>Learn</span>
         </Link>

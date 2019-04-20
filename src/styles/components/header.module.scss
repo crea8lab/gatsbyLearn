@@ -1,5 +1,21 @@
 .header {
-  padding: 1rem 0 3rem;
+  padding: 1rem 3rem;
+  background: #1b1b1b;
+  position: fixed;
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* Media Queries */
+
+  /* Mobile First */
+  @media only screen and (min-width: 300px) and (max-width: 460px) {
+    .nav-list {
+      display: none;
+    }
+  }
 }
 
 .title {
@@ -7,6 +23,7 @@
   font-size: 3rem;
   text-decoration: none;
   font-weight: 400;
+  margin-bottom: 0 !important;
 
   .title__span {
     color: #616161;

@@ -439,11 +439,11 @@ blockquote {
   margin-left: 1.45rem;
   margin-right: 1.45rem;
   margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
   margin-bottom: 1.45rem;
+  background-color: #e2e2e2;
+  padding: 1.5rem 1rem;
+  border-radius: 0.2rem;
+  border-left: 5px solid grey;
 }
 form {
   margin-left: 0;
@@ -544,6 +544,11 @@ li > p {
 code {
   font-size: 0.85rem;
   line-height: 1.45rem;
+  background-color: #4b4b4b;
+  padding: 1.5rem 1rem;
+  border-radius: 0.2rem;
+  color: #e2e2e2;
+  border-left: 5px solid #e0ca02;
 }
 kbd {
   font-size: 0.85rem;
