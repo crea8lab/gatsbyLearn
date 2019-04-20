@@ -1,5 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
+import Icon from "@mdi/react"
+import { mdiMenu } from "@mdi/js"
 
 // import styles
 import headerStyles from "../styles/components/header.module.scss"
@@ -14,6 +16,19 @@ const Header = () => {
       </h1>
 
       <nav>
+        <div className={headerStyles.xs__nav}>
+          <div className={headerStyles.menu__cover}>
+            <Icon
+              path={mdiMenu}
+              size={1.5}
+              horizontal
+              vertical
+              className={headerStyles.menu}
+              color="grey"
+              onClick={() => alert("Hi there")} /* TODO */
+            />
+          </div>
+        </div>
         <ul className={headerStyles.navList}>
           <li>
             <Link
