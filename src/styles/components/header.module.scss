@@ -49,6 +49,43 @@
       }
     }
   }
+
+  /* Tablets Query */
+  @media only screen and (min-width: 480px) and (max-width: 584px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .title {
+      font-size: 1.89rem;
+    }
+
+    h1 {
+      margin-top: -1rem;
+    }
+
+    nav {
+      position: absolute;
+      bottom: 0.5rem;
+    }
+  }
+
+  @media only screen and (min-width: 583px) and (max-width: 732px) {
+    display: flex;
+    align-items: center;
+
+    .title {
+      font-size: 1.9rem;
+    }
+
+    .nav-item {
+      color: #999;
+      font-size: 0.5rem;
+      margin-right: 1rem;
+      text-decoration: none;
+    }
+  }
 }
 
 .title {
